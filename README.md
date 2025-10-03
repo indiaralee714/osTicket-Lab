@@ -68,11 +68,6 @@ Successful log-in: <br/>
 <img src="https://i.imgur.com/tEfmLg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Front-end view: <br/>
-<img src="https://i.imgur.com/VKdSeBo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
 
 
 
