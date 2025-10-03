@@ -68,8 +68,20 @@ Successful log-in: <br/>
 <br />
 <br />
 
-
-
+<h2>Post-Installation Set-up</h2>
+<p align="center">
+Configuring roles: <br/>
+<img src="https://i.imgur.com/FLKv9Jq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adding new role: <br/>
+<img src="https://i.imgur.com/cuDzt3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Granting Permissions: <br/>
+<img src="https://i.imgur.com/xFS6kN0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 
