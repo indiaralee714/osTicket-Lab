@@ -9,13 +9,12 @@ Hands-on labs from my osTicket Fundamentals training. Includes screenshots, step
 <h2>Utilities Used</h2>
 
 - <b>osTicket Platform</b>
-- <b>Microsoft Azure</b>
-- <b>Virtual Machines (Windows)</b>
 - <b>Remote Desktop Connection</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (22H2)
+- <b>Virtual Machines (Windows)</b>
+- <b>Microsoft Azure</b>
 
 <h2>Program walk-through: Installing osTicket</h2>
 
