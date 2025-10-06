@@ -82,6 +82,26 @@ Granting Permissions: <br/>
 <img src="https://i.imgur.com/xFS6kN0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+2/2: <br/>
+<img src="https://i.imgur.com/tEfmLg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2/2: <br/>
+<img src="https://i.imgur.com/tEfmLg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2/2: <br/>
+<img src="https://i.imgur.com/tEfmLg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+
+
+
+
+
+
 
 
 
