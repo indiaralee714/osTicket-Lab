@@ -158,11 +158,26 @@ Successfully added 4 new topics: <br/>
 <img src="https://i.imgur.com/wLYInVG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
-
-
-
-
+  
+<p align="center">
+<h2>Creating Tickets as End Users</h2>
+  <p align="center">
+Creating mock ticket: <br/>
+<img src="https://i.imgur.com/v6HH8JJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Ticket has been received on back-end: <br/>
+<img src="https://i.imgur.com/9epjwVh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Making configurations to the ticket: <br/>
+<img src="https://i.imgur.com/q1Bmbmf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2nd example of mock ticket configuration: <br/>
+<img src="https://i.imgur.com/hymb77J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 
