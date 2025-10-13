@@ -1,192 +1,135 @@
-<h1>osTicket Lab</h1>
+# osTicket Lab – Azure Deployment
 
+This repository documents a **personal lab I completed using Microsoft Azure**, demonstrating the installation, configuration, and testing of **osTicket**, a popular open-source support ticket system. The lab includes setup of the web server, PHP, MySQL database, and user management.
 
-<h2>Description</h2>
-Hands-on labs from my osTicket Fundamentals training. Includes screenshots, steps, and lessons learned.
-<br />
+---
 
+## Table of Contents
 
-<h2>Utilities Used</h2>
+1. [Lab Overview](#lab-overview)
+2. [Environment Setup](#environment-setup)
+3. [Installing osTicket](#installing-osticket)
+4. [Post-Installation Configuration](#post-installation-configuration)
+5. [Users, Roles, and Departments](#users-roles-and-departments)
+6. [Testing the Ticket System](#testing-the-ticket-system)
+7. [Screenshots](#screenshots)
 
-- <b>osTicket Platform</b>
-- <b>Remote Desktop Connection</b>
+---
 
-<h2>Environments Used </h2>
+## Lab Overview
 
-- <b>Virtual Machines (Windows)</b>
-- <b>Microsoft Azure</b>
+**Objective:** Deploy and configure osTicket on Azure to simulate a support ticketing environment.  
 
-<h2>Program walk-through: Installing osTicket</h2>
+**Tools Used:**
+- Microsoft Azure (VMs, Networking)
+- Windows Server / Linux Server (depending on deployment)
+- IIS / Apache Web Server
+- PHP
+- MySQL / MariaDB
+- osTicket Web Application
+- HeidiSQL / phpMyAdmin (for database management)
+- RDP / SSH for remote access
 
-<p align="center">
-Creating VM via Microsoft for running osTicket: <br/>
-<img src="https://i.imgur.com/VKdSeBo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enabeling IIS (Internet Information Services) in windows with CGI. 1/2: <br/>
-<img src=https://i.imgur.com/zL9vVR9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Page displayed now that services are enabled. 2/2: <br/>
-<img src=https://i.imgur.com/KC8kMkw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enabeling needed PHP extentions to enhance performance of software (osTicket): <br/>
-<img src=https://i.imgur.com/qFOOq3y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Removing all inherited permissions: <br/>
-<img src=https://i.imgur.com/tsSXexW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enabeling permissions for "Everyone" 1/2: <br/>
-<img src="https://i.imgur.com/y943E8O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-2/2: <br/>
-<img src="https://i.imgur.com/d2x9YzJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Creating a database via Heidi SQL: <br/>
-<img src="https://i.imgur.com/kkguyRj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-osTicket successfully installed: <br/>
-<img src="https://i.imgur.com/8Us7xaX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Successful creation of database *Foundation files on back-end*: <br/>
-<img src="https://i.imgur.com/8NBY4yF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Successful log-in: <br/>
-<img src="https://i.imgur.com/ElWuLH3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-2/2: <br/>
-<img src="https://i.imgur.com/tEfmLg0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+**Key Outcomes:**
+- Successfully installed osTicket on Azure VM
+- Configured web server, PHP, and database
+- Created users, roles, and departments
+- Verified ticket creation and resolution workflows
 
-<h2>Post-Installation Set-up</h2>
-<p align="center">
-Configuring roles: <br/>
-<img src="https://i.imgur.com/FLKv9Jq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Adding new role: <br/>
-<img src="https://i.imgur.com/cuDzt3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Granting Permissions: <br/>
-<img src="https://i.imgur.com/Nv86Mcm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Role has been added successfully: <br/>
-<img src="https://i.imgur.com/17FCfsj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring departments: <br/>
-<img src="https://i.imgur.com/oGE7I7l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Adding new department (Sys Admins): <br/>
-<img src="https://i.imgur.com/dgPofZR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Department successfully added: <br/>
-<img src="https://i.imgur.com/HnQCFTw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring teams: <br/>
-<img src="https://i.imgur.com/Vpni4QK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring set-up to allow anyone to be able to submit a ticket. *Confirming "Registration Required" setting is off: <br/>
-<img src="https://i.imgur.com/kFpkj6A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirming agents: <br/>
-<img src="https://i.imgur.com/T1BCrjq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Creating a user (John Doe): <br/>
-<img src="https://i.imgur.com/LWd7F9M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Ensuring proper access is granted to the new user: 1/2 <br/>
-<img src="https://i.imgur.com/ygyK8tp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-2/2: <br/>
-<img src="https://i.imgur.com/H7wnN8x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Employees successfully added to system: <br/>
-<img src="https://i.imgur.com/T7RGFNp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring Users (Customers): 1/2 <br/>
-<img src="https://i.imgur.com/x30kq0G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Users created successfully: 2/2 <br/>
-<img src="https://i.imgur.com/SOTULBT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring SLA plans: <br/>
-<img src="https://i.imgur.com/xMVKFYL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Created a new SLA plan: <br/>
-<img src="https://i.imgur.com/zFbfTeb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Completed configured SLAs: <br/>
-<img src="https://i.imgur.com/Lr0IWAJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Configuring help topics: <br/>
-<img src="https://i.imgur.com/NQ2RhVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Creating new help topic: <br/>
-<img src="https://i.imgur.com/kD1q3KO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Successfully added 4 new topics: <br/>
-<img src="https://i.imgur.com/wLYInVG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-  
-<p align="center">
-<h2>Creating Tickets as End Users</h2>
-  <p align="center">
-Creating mock ticket: <br/>
-<img src="https://i.imgur.com/v6HH8JJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Ticket has been received on back-end: <br/>
-<img src="https://i.imgur.com/9epjwVh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Making configurations to the ticket: <br/>
-<img src="https://i.imgur.com/q1Bmbmf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-2nd example of mock ticket configuration: <br/>
-<img src="https://i.imgur.com/hymb77J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+---
 
+## Environment Setup
 
+<details>
+<summary>View Environment Details</summary>
 
+- Azure VM with Windows Server
+- Public IP configured
+- Network Security Group rules allowing HTTP/HTTPS
+- RDP access enabled
+- Database server installed (MySQL/MariaDB)
 
+</details>
 
+---
 
+## Installing osTicket
 
+<details>
+<summary>View Installation Steps</summary>
 
+1. Download osTicket from the official website.
+2. Upload osTicket files to the web server (IIS/Apache).
+3. Configure PHP settings (e.g., `file_uploads`, `memory_limit`).
+4. Create MySQL database for osTicket using HeidiSQL.
+5. Set permissions for the web server to access osTicket files.
 
+**Example:**
 
+<img src="https://i.imgur.com/your-example-image.png" alt="osTicket Installation" style="max-width:100%; height:auto; display:block; margin:auto;" />
 
+</details>
+
+---
+
+## Post-Installation Configuration
+
+<details>
+<summary>View Post-Installation Steps</summary>
+
+- Complete the web-based setup by navigating to the Azure VM's public IP.
+- Enter database credentials and administrator account info.
+- Remove the `setup/` folder for security.
+- Verify that the admin dashboard is accessible.
+
+<img src="https://i.imgur.com/your-dashboard-image.png" alt="osTicket Admin Dashboard" style="max-width:100%; height:auto; display:block; margin:auto;" />
+
+</details>
+
+---
+
+## Users, Roles, and Departments
+
+<details>
+<summary>View User & Role Configuration</summary>
+
+- Created multiple user accounts (staff & admin)
+- Defined roles and permissions
+- Configured departments to organize tickets
+
+<img src="https://i.imgur.com/your-users-image.png" alt="Users and Roles" style="max-width:100%; height:auto; display:block; margin:auto;" />
+
+</details>
+
+---
+
+## Testing the Ticket System
+
+<details>
+<summary>View Ticket Testing Steps</summary>
+
+- Submitted test tickets via the customer portal
+- Verified tickets appear in the admin dashboard
+- Tested ticket assignment to specific departments
+- Confirmed email notifications work (if configured)
+
+<img src="https://i.imgur.com/your-ticket-test-image.png" alt="Ticket Testing" style="max-width:100%; height:auto; display:block; margin:auto;" />
+
+</details>
+
+---
+
+## Screenshots
+
+<details>
+<summary>View All Lab Screenshots</summary>
+
+![Installation Screenshot](https://i.imgur.com/your-example-image.png)  
+![Admin Dashboard](https://i.imgur.com/your-dashboard-image.png)  
+![Users & Roles](https://i.imgur.com/your-users-image.png)  
+![Ticket Testing](https://i.imgur.com/your-ticket-test-image.png)  
+
+</details>
+
+---
 
