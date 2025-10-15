@@ -1,4 +1,4 @@
-# osTicket Lab – Azure Deployment
+# osTicket Lab 
 
 This repository documents a personal lab I completed using Microsoft Azure, demonstrating the installation, configuration, and testing of **osTicket**, a popular open-source support ticket system. The lab includes setup of the web server, PHP, MySQL database, and user management.
 
